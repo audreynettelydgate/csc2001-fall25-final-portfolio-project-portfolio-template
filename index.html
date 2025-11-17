@@ -32,6 +32,24 @@
   </section>
 
   <script src="script.js"></script>
+
+  <div id="bows-container"></div>
+
+<script>
+  function createBow() {
+    const bow = document.createElement('div');
+    bow.classList.add('bow');
+    bow.style.left = Math.random() * 100 + "vw";
+    bow.style.animationDuration = (Math.random() * 3 + 3) + "s";
+    document.getElementById('bows-container').appendChild(bow);
+
+    setTimeout(() => bow.remove(), 6000);
+  }
+
+  setInterval(createBow, 400);
+</script>
+
+  
 </body>
 </html>
 
