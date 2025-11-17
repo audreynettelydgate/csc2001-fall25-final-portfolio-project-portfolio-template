@@ -9,7 +9,7 @@ document.getElementById('themeToggle')?.addEventListener('click', () => {
   if (!el) return;
 
   try {
-    const res = await fetch('https://www.quotationspage.com/random.php');
+    const res = await fetch('https://api.quotable.io/random');
     const data = await res.json();
     el.textContent = `“${data.content}” — ${data.author}`;
   } catch {
