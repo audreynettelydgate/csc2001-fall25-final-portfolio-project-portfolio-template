@@ -128,10 +128,10 @@ body.pink-theme {
   color: #fff;
 }
 body {
-  cursor: url('https://i.pinimg.com/736x/e3/f5/a4/e3f5a4721754176b935e040131427480.jpg'), auto;
+  cursor: url('https://i.imgur.com/8o0T8wA.png'), auto;
 }
 a:hover, button:hover {
-  cursor: url('https://i.pinimg.com/736x/b3/06/4b/b3064b548b006090b5ff451dba6c5647.jpg'), pointer;
+  cursor: url('https://i.imgur.com/8o0T8wA.png'), pointer;
 }
 #bows-container {
   position: fixed;
