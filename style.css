@@ -128,10 +128,10 @@ body.pink-theme {
   color: #fff;
 }
 body {
-  cursor: url('https://i.pinimg.com/1200x/dc/c7/ae/dcc7aeceeb3a197ab521e6e95dbbca8d.jpg'), auto;
+  cursor: url('https://i.pinimg.com/736x/e3/f5/a4/e3f5a4721754176b935e040131427480.jpg'), auto;
 }
 a:hover, button:hover {
-  cursor: url('https://i.pinimg.com/736x/00/18/60/0018608ffdd75002771394b95fd74ef3.jpg'), pointer;
+  cursor: url('https://i.pinimg.com/736x/b3/06/4b/b3064b548b006090b5ff451dba6c5647.jpg'), pointer;
 }
 #bows-container {
   position: fixed;
@@ -149,7 +149,7 @@ a:hover, button:hover {
   top: -50px;
   width: 40px;
   height: 40px;
-  background-image: url('https://i.pinimg.com/736x/3b/d1/49/3bd149abfbd2f66186c1d3960d885caf.jpg'); /* pink HK bow */
+  background-image: url('https://i.pinimg.com/736x/ca/e8/6e/cae86ed2b5443d8a9fdef70469f982da.jpg'); /* pink HK bow */
   background-size: cover;
   animation: fall linear infinite;
   opacity: 0.9;
