@@ -6,41 +6,47 @@
   <title>Contact</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="pink-theme">
+
   <nav class="nav">
+    <img class="kitty-icon" src="https://i.imgur.com/fZqV9mC.png" alt="Kitty Icon">
     <a href="./">Home</a>
     <a href="./projects.html">Projects</a>
     <a class="active" href="./contact.html">Contact</a>
   </nav>
 
   <main class="stack">
-    <form id="contactForm">
+    <h1 class="contact-title">💌 Contact Me</h1>
+
+    <form id="contactForm" class="kitty-form">
       <label>Name <input name="name" required></label>
       <label>Email <input name="email" type="email" required></label>
       <label>Message <textarea name="message" rows="5" required></textarea></label>
-      <button type="submit">Send</button>
+      <button type="submit" class="contact-button">Send 🎀</button>
       <p id="status" role="status" aria-live="polite"></p>
     </form>
   </main>
 
   <script type="module">
-    // Example AJAX submit to a public echo service (or replace with Netlify Forms / SheetDB)
     const form = document.getElementById('contactForm');
     const status = document.getElementById('status');
+
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       status.textContent = 'Sending…';
+
       try {
         const res = await fetch('https://httpbin.org/post', {
           method: 'POST',
           headers: {'Content-Type':'application/json'},
           body: JSON.stringify(Object.fromEntries(new FormData(form)))
         });
+
         if (!res.ok) throw new Error('Network error');
-        status.textContent = 'Sent! (Demo)';
+        status.textContent = 'Message sent 🎀 (Demo)';
         form.reset();
       } catch (err) {
-        status.textContent = 'Failed to send.';
+        status.textContent = 'Failed to send 💔';
       }
     });
   </script>
