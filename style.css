@@ -128,10 +128,10 @@ body.pink-theme {
   color: #fff;
 }
 body {
-  cursor: url('https://i.imgur.com/8o0T8wA.png'), auto;
+  cursor: url('https://i.imgur.com/N4f2E4H.png') 16 16, auto;
 }
 a:hover, button:hover {
-  cursor: url('https://i.imgur.com/8o0T8wA.png'), pointer;
+  cursor: url('https://i.imgur.com/N4f2E4H.png') 16 16, pointer;
 }
 #bows-container {
   position: fixed;
