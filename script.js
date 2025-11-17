@@ -9,7 +9,7 @@ document.getElementById('themeToggle')?.addEventListener('click', () => {
   if (!el) return;
 
   try {
-    const res = await fetch('https://www.minimizemymess.com/random-quote-generator?srsltid=AfmBOop3Rq23oHVhko7B3E5YB0ODW82Sh0a5GtKZfU3ZC4GW0YQeZn3P');
+    const res = await fetch('https://www.quotationspage.com/random.php');
     const data = await res.json();
     el.textContent = `“${data.content}” — ${data.author}`;
   } catch {
