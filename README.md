@@ -50,7 +50,7 @@ Home Page
 - Custom fonts and colors
 - Cute, branded visuals throughout
 
-## 🎀Technologies Used
+## 🎀 Technologies Used
 
 - HTML5
 - CSS3
